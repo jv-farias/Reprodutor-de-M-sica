@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 35%, rgba(0,54,3,1) 51%, rgba(1,59,4,1) 100%);
+color: white;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+#cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 0em 1em 0;
+}
+
+#button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+align-items: center;
+}
+
+.button{
+    font-size: 1.5em;
+}
+
+.button-navigate{
+    font-size: 3em;
+}
+
+.button-biggest{
+    font-size: 4em;
+}
+
+#imagem{
+    width: 450px;
+}
+
+#Playlist-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0  4em 0;
+}
+
+#nome-musica{
+font-size: 2em;
+font-weight: bolder;
+}
+
+.light-color{
+    color: rgb(139, 153, 156);
+}
+
+#progress-bar{
+    background-color: rgb(139, 153, 156);
+height: 3px;
+width: 100%;
+border-radius: 15px;
+margin-bottom: 1em;
+}
+
+#current-progress{
+    background-color: white;
+  height: inherit;  
+  width: 50%;
+  border-radius: 15px;
+}
